@@ -1,3 +1,12 @@
+#-------------------------------------------------------------------------------
+# Name:        Matthias_Brunner_CAS_DA_R_Gof.R
+# Purpose:     Aufgaben Anpassungstest
+#
+# Author:      Matthias Brunner
+#
+# Created:     12.01.2017
+#-------------------------------------------------------------------------------
+
 # Problem: Die Unileitung vermutet folgendes Rauchverhalten ihrer Studierenden.
 # Heavy Never Occassionaly Regular
 # 4.5%  79.5% 8.5%         7.5%
