@@ -18,6 +18,7 @@ rm(list = ls())
 # Laden der Library MASS
 library(MASS)
 head(mtcars)
+
 engin.lm <- lm(wt ~ hp, data=mtcars) 
 
 coeffs <- coefficients(engin.lm)
@@ -46,6 +47,8 @@ summary(engin.lm)$r.squared
 # signifikanter Zusammenhang besteht.
 engin.lm <- lm(wt ~ hp, data=mtcars)
 summary(engin.lm)
+
+# Der p-Wert ist nahezu gleich 0. Die Nullhypothese wird Verworfen.
 
 # ------------------------------------------------------------------------------
 
@@ -89,5 +92,6 @@ abline(0,0)
 # ---QQ-Plot--------------------------------------------------------------------
 # Erstellen Sie das Normal-Wahrscheinlichkeits-Diagramm der Residuen
 # aus dem Datensatz mtcars.
-
 plot(engin.lm, which=2)
+
+# ------------------------------------------------------------------------------
