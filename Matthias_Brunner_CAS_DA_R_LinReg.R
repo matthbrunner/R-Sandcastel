@@ -83,8 +83,7 @@ predict(engin.lm, newdata, interval="predict")
 engin.lm <- lm(wt ~ hp, data=mtcars)
 engin.res <- resid(engin.lm)
 
-plot(mtcars$wt, engin.res, ylab="Residuen",
-     xlab="Weight (1000 lbs)", main="Weight from Cars")
+plot(mtcars$hp, engin.res, ylab="Residuen", xlab="PS", main="PS from Cars")
 abline(0,0)
 # ------------------------------------------------------------------------------
 
